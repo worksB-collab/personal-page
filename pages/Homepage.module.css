@@ -1,0 +1,52 @@
+
+.profileCard {
+    margin: 10vh auto;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.profilePhotoFrame {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.profilePhotoFrame img {
+    width: 150px;
+    height: 150px;
+}
+
+.hrLine {
+    color: gray;
+    width: 80%;
+}
+
+.linkButtons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.linkButtons a {
+    color: #505050;
+    width: 100px;
+    height: 20px;
+    margin: 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+    border: 1px solid #aaaaaa;
+    border-radius: 5px;
+    transition: all .3s;
+}
+
+.linkButtons a:hover {
+    transform: translateY(-2px);
+    box-shadow: 1px 1px 1px gray;
+}
