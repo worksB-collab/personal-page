@@ -1,0 +1,19 @@
+.container {
+    margin: 10px 0;
+}
+
+.title {
+    margin: 5px 0;
+    text-align: left;
+}
+
+.date {
+    margin: 5px 0;
+    text-align: left;
+}
+
+.message {
+    margin: 0;
+    text-align: left;
+    font-size: .9em;
+}

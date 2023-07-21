@@ -3,10 +3,12 @@ h1, h2 {
     font-family: 'Roboto', sans-serif;
 }
 
-h3, h4, h5, a {
+h1, h2, h3, h4, h5, a, p {
     color: #282828;
     font-family: monospace, monospace;
     text-align: center;
+    text-decoration: none;
+    margin: 0;
 }
 
 body {
