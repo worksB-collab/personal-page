@@ -25,7 +25,7 @@ const Homepage = () => {
             </div>
             <div className={styles.linkButtons}>
                 <Link
-                    href={'https://drive.google.com/drive/u/0/folders/0BwmBNMDCk4AtakpzanM2T3lscFU?resourcekey=0-evidSmhjGeJWqv-pRo06Qw'}>CV</Link>
+                    href={'https://drive.google.com/file/d/13n7A-SdB6bREejo3eTFbmidxuIszo_bW/view?usp=sharing'}>CV</Link>
                 <Link href={'/about'}>About</Link>
             </div>
             <div className={styles.events}>
