@@ -10,7 +10,7 @@ const Homepage = () => {
         <Wrapper>
             <div className={styles.profilePhotoFrame}>
                 <Image
-                    src='/../public/img/profile.jpg'
+                    src='/../public/static/images/profile.jpg'
                     alt={'profile'}
                     width={150}
                     height={150}
