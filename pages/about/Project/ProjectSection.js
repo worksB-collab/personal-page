@@ -1,6 +1,7 @@
 import ProjectCard from "@/pages/about/Project/ProjectCard";
 
 const ProjectSection = () => {
+    // todo add other projects
     return (
         <>
             <ProjectCard title={'Happy Bubble'}
@@ -19,7 +20,6 @@ const ProjectSection = () => {
                          time={'Dec. 2019 - Sep. 2020'}
                          content={'A shift arrangement system seamlessly caters to the needs of both employees and HR professionals, functioning flawlessly on the iOS and Android platforms. This robust solution streamlines the process of scheduling shifts, ensuring optimal efficiency and convenience for all stakeholders involved.'}
             />
-
         </>
     )
 }

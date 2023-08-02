@@ -10,7 +10,7 @@ const AccordionItem = (props) => {
         {name: 'All', value: '1'},
         {name: 'CS related', value: '2'},
     ]
-
+    // todo add toggle logic
     return (
         <div className={aboutPageStyles.accordion}>
             <div className={aboutPageStyles.title}>
@@ -42,7 +42,7 @@ const AccordionItem = (props) => {
                         ))}
                     </ButtonGroup>
                 }
-                {props.children}
+                {!props.collapse && props.children}
             </div>
         </div>
     )
