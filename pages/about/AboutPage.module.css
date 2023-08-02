@@ -20,6 +20,7 @@
 }
 
 .accordion .content p,
+.accordion .content a,
 .accordion .content h5 {
     text-align: left;
     font-family: "Anek Latin", "Barlow", "Fira Sans", sans-serif;

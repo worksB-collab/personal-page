@@ -11,10 +11,10 @@ import {useState} from "react";
 const AboutPage = () => {
 
     const [accordionsCollapse, setAccordionsCollapse] = useState({
-        experience: false,
-        education: false,
-        project: false,
-        license: false
+        experience: true,
+        education: true,
+        project: true,
+        license: true
     });
 
     const onPlusClickHandler = (e) => {
@@ -23,7 +23,10 @@ const AboutPage = () => {
         const content = document.querySelector(`#content-${id}`);
         content.classList.remove(aboutPageStyles.hide);
         setAccordionsCollapse(prevState => {
-            prevState[id] = !prevState[id]
+            Object.keys(prevState).forEach(key => {
+                prevState[key] = true;
+            });
+            prevState[id] = false;
             return {
                 ...prevState
             }
@@ -36,7 +39,7 @@ const AboutPage = () => {
         const content = document.querySelector(`#content-${id}`);
         content.classList.add(aboutPageStyles.hide);
         setAccordionsCollapse(prevState => {
-            prevState[id] = !prevState[id]
+            prevState[id] = true;
             return {
                 ...prevState
             }
