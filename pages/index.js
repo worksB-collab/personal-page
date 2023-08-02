@@ -1,31 +1,30 @@
-import Wrapper from "@/components/Wrapper";
+import ThinWrapper from "@/components/ThinWrapper";
 import Image from 'next/image';
 import styles from './Homepage.module.css';
 import Link from "next/link";
 import EventItem from "@/pages/EventItem";
 import SocialLinks from "@/components/SocialLinks";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faFilePdf} from "@fortawesome/free-solid-svg-icons";
 
 const Homepage = () => {
     return (
-        <Wrapper>
+        <ThinWrapper>
             <div className={styles.profilePhotoFrame}>
                 <Image
-                    src='/../public/static/images/profile.jpg'
+                    src='/images/profile.jpg'
                     alt={'profile'}
                     width={150}
                     height={150}
                 />
             </div>
-            <div className={styles.profileName}>
-                <h3>Ping-Chun, Wu (Billy)</h3>
-            </div>
-            {/*<hr className={styles.hrLine}/>*/}
-            <div className={styles.profileTitle}>
-                <h4>Software Developer at Arena Banking</h4>
-            </div>
+            <h4 className={styles.profileName}>Ping-Chun, Wu (Billy)</h4>
+            <h5 className={styles.profileTitle}>Software Developer at Arena Banking</h5>
             <div className={styles.linkButtons}>
-                <Link
-                    href={'https://drive.google.com/file/d/13n7A-SdB6bREejo3eTFbmidxuIszo_bW/view?usp=sharing'}>CV</Link>
+                <Link href={'https://drive.google.com/file/d/13n7A-SdB6bREejo3eTFbmidxuIszo_bW/view?usp=sharing'}
+                      target='_blank'>
+                    <FontAwesomeIcon icon={faFilePdf}/> CV
+                </Link>
                 <Link href={'/about'}>About</Link>
             </div>
             <div className={styles.events}>
@@ -35,7 +34,7 @@ const Homepage = () => {
                            message={'A tool assists customers in customizing stamp designs and generating operation reports for businesses.'}/>
             </div>
             <SocialLinks/>
-        </Wrapper>
+        </ThinWrapper>
     )
 }
 

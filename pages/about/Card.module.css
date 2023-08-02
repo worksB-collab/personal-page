@@ -1,0 +1,57 @@
+.card {
+    margin: 30px auto;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    text-align: center;
+    border-left: 1px solid #cccccc;
+    transition: all .2s;
+}
+
+.card:hover {
+    border-radius: 15px;
+    transform: translateY(-2px);
+    box-shadow: 1px 1px 2px 2px #cccccc;
+}
+
+.title {
+    font-size: 12pt;
+    font-weight: 700;
+    color: #555555;
+}
+
+.school {
+    color: #555555;
+}
+
+.program {
+    color: #555555;
+}
+
+.location {
+    font-size: 10pt;
+    color: #777777;
+}
+
+.company {
+    color: #555555;
+}
+
+.timeContainer {
+    flex: 1;
+}
+
+.contentContainer {
+    flex: 4;
+}
+
+.time {
+    font-size: 10pt;
+    color: #777777;
+}
+
+.content {
+    color: #555555;
+}

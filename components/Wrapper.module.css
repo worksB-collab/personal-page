@@ -1,11 +1,26 @@
-.profileCard {
+.card {
+    background-color: white;
     margin: 10vh auto;
     padding: 50px 20px;
-    max-width: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     border-radius: 5px;
     box-shadow: 1px 1px 2px 2px #cccccc;
+}
+
+.thinCard {
+    max-width: 500px;
+}
+
+.wideCard {
+    max-width: 900px;
+}
+
+@media screen and (max-width: 900px) {
+    .wideCard {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 }
