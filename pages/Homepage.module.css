@@ -52,7 +52,7 @@
 
 .events {
     margin: 0 0 20px 0;
-    padding: 10px 40px;
+    padding: 10px 0;
     display: flex;
     flex-direction: column;
     justify-content: left;
