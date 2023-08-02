@@ -17,6 +17,7 @@
 }
 
 .title {
+    text-align: left;
     font-size: 12pt;
     font-weight: 700;
     color: #555555;
@@ -44,6 +45,8 @@
 }
 
 .contentContainer {
+    display: flex;
+    flex-direction: column;
     flex: 4;
 }
 

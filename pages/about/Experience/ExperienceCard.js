@@ -9,7 +9,9 @@ const ExperienceCard = (props) => {
                 <p className={styles.time}>{props.time}</p>
             </div>
             <div className={styles.contentContainer}>
-                <h5 className={styles.title}>{props.title}</h5>
+                <a href={props.companySite}
+                   target='_blank'
+                   className={styles.title}>{props.title}</a>
                 <p className={styles.company}>{props.company}</p>
                 <p className={styles.location}>
                     <FontAwesomeIcon icon={faLocationDot}/>
