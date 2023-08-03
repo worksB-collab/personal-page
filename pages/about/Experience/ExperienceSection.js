@@ -1,5 +1,5 @@
 import ExperienceCard from "@/pages/about/Experience/ExperienceCard";
-import {ExperienceData} from "@/pages/about/DataSet";
+import {ExperienceData} from "@/data/DataSet";
 
 const ExperienceSection = (props) => {
 
