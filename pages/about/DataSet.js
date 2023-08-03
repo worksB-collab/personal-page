@@ -1,4 +1,4 @@
-const ExperienceData = [
+export const ExperienceData = [
     {
         id: 1,
         title: 'Software Developer',
@@ -76,6 +76,3 @@ const ExperienceData = [
         isCsRelated: false
     }
 ];
-
-
-export {ExperienceData};
