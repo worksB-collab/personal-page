@@ -10,7 +10,7 @@ const AccordionItem = (props) => {
         {name: 'All', value: '1'},
         {name: 'CS related', value: '2'},
     ]
-    // todo add toggle logic
+
     return (
         <div className={aboutPageStyles.accordion}>
             <div className={aboutPageStyles.title}>
@@ -35,7 +35,13 @@ const AccordionItem = (props) => {
                                 name="radio"
                                 value={radio.value}
                                 checked={radioValue === radio.value}
-                                onChange={(e) => setRadioValue(e.currentTarget.value)}
+                                onChange={(e) => {
+                                    setRadioValue(e.currentTarget.value);
+                                    props.setIsCsRelated(prev => {
+                                        prev[props.id] = !prev[props.id];
+                                        return {...prev};
+                                    });
+                                }}
                             >
                                 {radio.name}
                             </ToggleButton>

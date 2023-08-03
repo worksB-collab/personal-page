@@ -40,7 +40,7 @@
 }
 
 .timeContainer {
-    flex: 1;
+    flex: 1.2;
 }
 
 .contentContainer {
@@ -56,4 +56,12 @@
 
 .content {
     color: #555555;
+}
+
+@media screen and (max-width: 900px) {
+    .card {
+        flex-direction: column;
+        margin: 20px auto;
+        padding: 15px 20px;
+    }
 }

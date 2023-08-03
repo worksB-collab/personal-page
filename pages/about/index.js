@@ -16,6 +16,12 @@ const AboutPage = () => {
         project: true,
         license: true
     });
+    const [isCsRelatedToggles, setIsCsRelatedToggles] = useState({
+        experience: false,
+        education: false,
+        project: false,
+        license: false
+    });
 
     const onPlusClickHandler = (e) => {
         const button = e.target;
@@ -64,30 +70,34 @@ const AboutPage = () => {
                 <AccordionItem id={'experience'}
                                header={'Experience'}
                                collapse={accordionsCollapse['experience']}
+                               setIsCsRelated={setIsCsRelatedToggles}
                                onPlusClickHandler={onPlusClickHandler}
                                onMinusClickHandler={onMinusClickHandler}>
-                    <ExperienceSection/>
+                    <ExperienceSection isCsRelated={isCsRelatedToggles['experience']}/>
                 </AccordionItem>
                 <AccordionItem id={'education'}
                                header={'Education'}
                                collapse={accordionsCollapse['education']}
+                               setIsCsRelated={setIsCsRelatedToggles}
                                onPlusClickHandler={onPlusClickHandler}
                                onMinusClickHandler={onMinusClickHandler}>
-                    <EducationSection/>
+                    <EducationSection isCsRelated={isCsRelatedToggles['education']}/>
                 </AccordionItem>
                 <AccordionItem id={'project'}
                                header={'Project'}
                                collapse={accordionsCollapse['project']}
+                               setIsCsRelated={setIsCsRelatedToggles}
                                onPlusClickHandler={onPlusClickHandler}
                                onMinusClickHandler={onMinusClickHandler}>
-                    <ProjectSection/>
+                    <ProjectSection isCsRelated={isCsRelatedToggles['project']}/>
                 </AccordionItem>
                 <AccordionItem id={'license'}
                                header={'License'}
                                collapse={accordionsCollapse['license']}
+                               setIsCsRelated={setIsCsRelatedToggles}
                                onPlusClickHandler={onPlusClickHandler}
                                onMinusClickHandler={onMinusClickHandler}>
-                    <LicenseSection/>
+                    <LicenseSection isCsRelated={isCsRelatedToggles['license']}/>
                 </AccordionItem>
             </div>
             <SocialLinks/>

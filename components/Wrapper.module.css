@@ -19,6 +19,22 @@
 }
 
 @media screen and (max-width: 900px) {
+    .card {
+        padding: 40px 40px;
+    }
+
+    .wideCard {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .card {
+        margin: 20px auto;
+        padding: 20px 20px;
+    }
+
     .wideCard {
         margin-left: 20px;
         margin-right: 20px;
