@@ -7,6 +7,10 @@ import EducationSection from "@/pages/about/Education/EducationSection";
 import LicenseSection from "@/pages/about/License/LicenseSection";
 import ProjectSection from "@/pages/about/Project/ProjectSection";
 import {useState} from "react";
+import CompetitionSection from "@/pages/about/Competition/CompetitionSection";
+import OnlineCourseSection from "@/pages/about/OnlineCourse/OnlineCourseSection";
+import EventSection from "@/pages/about/Event/EventSection";
+import SkillSection from "@/pages/about/Skill/SkillSection";
 
 const AboutPage = () => {
 
@@ -14,13 +18,21 @@ const AboutPage = () => {
         experience: true,
         education: true,
         project: true,
-        license: true
+        license: true,
+        event: true,
+        onlineCourse: true,
+        competition: true,
+        skill: true,
     });
     const [isCsRelatedToggles, setIsCsRelatedToggles] = useState({
         experience: false,
         education: false,
         project: false,
-        license: false
+        license: false,
+        event: false,
+        onlineCourse: false,
+        competition: false,
+        skill: false,
     });
 
     const onPlusClickHandler = (e) => {
@@ -37,6 +49,8 @@ const AboutPage = () => {
                 ...prevState
             }
         });
+
+        button.scrollIntoView();
     }
 
     const onMinusClickHandler = (e) => {
@@ -98,6 +112,37 @@ const AboutPage = () => {
                                onPlusClickHandler={onPlusClickHandler}
                                onMinusClickHandler={onMinusClickHandler}>
                     <LicenseSection isCsRelated={isCsRelatedToggles['license']}/>
+                </AccordionItem>
+                <AccordionItem id={'event'}
+                               header={'Event'}
+                               collapse={accordionsCollapse['event']}
+                               setIsCsRelated={setIsCsRelatedToggles}
+                               onPlusClickHandler={onPlusClickHandler}
+                               onMinusClickHandler={onMinusClickHandler}>
+                    <EventSection isCsRelated={isCsRelatedToggles['event']}/>
+                </AccordionItem>
+                <AccordionItem id={'onlineCourse'}
+                               header={'OnlineCourse'}
+                               collapse={accordionsCollapse['onlineCourse']}
+                               setIsCsRelated={setIsCsRelatedToggles}
+                               onPlusClickHandler={onPlusClickHandler}
+                               onMinusClickHandler={onMinusClickHandler}>
+                    <OnlineCourseSection isCsRelated={isCsRelatedToggles['onlineCourse']}/>
+                </AccordionItem>
+                <AccordionItem id={'competition'}
+                               header={'Competition'}
+                               collapse={accordionsCollapse['competition']}
+                               setIsCsRelated={setIsCsRelatedToggles}
+                               onPlusClickHandler={onPlusClickHandler}
+                               onMinusClickHandler={onMinusClickHandler}>
+                    <CompetitionSection isCsRelated={isCsRelatedToggles['competition']}/>
+                </AccordionItem>
+                <AccordionItem id={'skill'}
+                               header={'Skill'}
+                               collapse={accordionsCollapse['skill']}
+                               onPlusClickHandler={onPlusClickHandler}
+                               onMinusClickHandler={onMinusClickHandler}>
+                    <SkillSection/>
                 </AccordionItem>
             </div>
             <SocialLinks/>

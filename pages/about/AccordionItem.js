@@ -14,7 +14,7 @@ const AccordionItem = (props) => {
     return (
         <div className={aboutPageStyles.accordion}>
             <div className={aboutPageStyles.title}>
-                <h4>{props.header}</h4>
+                <h5>{props.header}</h5>
                 <button id={props.id} className={aboutPageStyles.plusButton}
                         onClick={props.collapse ? props.onPlusClickHandler : props.onMinusClickHandler}>
                     {props.collapse ? '+' : '-'}
@@ -24,8 +24,8 @@ const AccordionItem = (props) => {
             <div id={`content-${props.id}`}
                  className={`${aboutPageStyles.hide} ${aboutPageStyles.content}`}>
                 {
-                    !props.collapse &&
-                    <ButtonGroup>
+                    !props.collapse && props.setIsCsRelated &&
+                    <ButtonGroup className={aboutPageStyles.toggleButton}>
                         {radios.map((radio, idx) => (
                             <ToggleButton
                                 key={idx}

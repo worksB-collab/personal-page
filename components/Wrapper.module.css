@@ -1,7 +1,7 @@
 .card {
     background-color: white;
-    margin: 10vh auto;
-    padding: 50px 70px;
+    margin: 5vh auto;
+    padding: 50px 60px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,6 +20,7 @@
 
 @media screen and (max-width: 900px) {
     .card {
+        margin-top: 20px;
         padding: 40px 40px;
     }
 
@@ -31,12 +32,6 @@
 
 @media screen and (max-width: 400px) {
     .card {
-        margin: 20px auto;
         padding: 20px 20px;
-    }
-
-    .wideCard {
-        margin-left: 20px;
-        margin-right: 20px;
     }
 }

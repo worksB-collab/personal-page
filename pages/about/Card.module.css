@@ -1,6 +1,6 @@
 .card {
-    margin: 30px auto;
-    padding: 20px 40px;
+    margin: 20px auto;
+    padding: 15px 40px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -39,6 +39,15 @@
     color: #555555;
 }
 
+.price {
+    font-weight: 700;
+    color: #555555;
+}
+
+.host {
+    color: #555555;
+}
+
 .timeContainer {
     flex: 1.2;
 }
@@ -58,10 +67,28 @@
     color: #555555;
 }
 
+.skillContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.skillTagContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skillTag {
+    margin: 10px 10px 0 0;
+    padding: 5px;
+    border: 1px solid #aaaaaa;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
 @media screen and (max-width: 900px) {
     .card {
         flex-direction: column;
-        margin: 20px auto;
+        margin: 15px auto;
         padding: 15px 20px;
     }
 }

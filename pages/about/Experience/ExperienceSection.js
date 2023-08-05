@@ -3,30 +3,23 @@ import {ExperienceData} from "@/data/DataSet";
 
 const ExperienceSection = (props) => {
 
-    const data = props.isCsRelated ? ExperienceData.filter(item => item.isCsRelated)
-            .map(item => {
-                return <ExperienceCard
-                    key={item.id}
-                    title={item.title}
-                    company={item.company}
-                    time={item.time}
-                    companySite={item.companySite}
-                    location={item.location}
-                    content={item.content}
-                />
-            })
+    const getExperienceCards = item => {
+        return <ExperienceCard
+            key={item.id}
+            title={item.title}
+            company={item.company}
+            time={item.time}
+            companySite={item.companySite}
+            location={item.location}
+            content={item.content}
+        />
+    };
+
+    const data = props.isCsRelated ? ExperienceData
+            .filter(item => item.isCsRelated)
+            .map(getExperienceCards)
         :
-        ExperienceData.map(item => {
-            return <ExperienceCard
-                key={item.id}
-                title={item.title}
-                company={item.company}
-                time={item.time}
-                companySite={item.companySite}
-                location={item.location}
-                content={item.content}
-            />
-        })
+        ExperienceData.map(getExperienceCards);
 
     return (
         <>

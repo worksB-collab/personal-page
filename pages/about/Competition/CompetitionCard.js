@@ -2,17 +2,20 @@ import styles from '../Card.module.css';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faLocationDot} from "@fortawesome/free-solid-svg-icons";
 
-const ExperienceCard = (props) => {
+const CompetitionCard = (props) => {
     return (
         <div className={styles.card}>
             <div className={styles.timeContainer}>
                 <p className={styles.time}>{props.time}</p>
             </div>
             <div className={styles.contentContainer}>
-                <a href={props.companySite}
+                <p className={styles.price}>{props.price}</p>
+                <a href={props.competitionSite}
                    target='_blank'
                    className={styles.title}>{props.title}</a>
-                <p className={styles.company}>{props.company}</p>
+                <a href={props.hostSite}
+                   target='_blank'
+                   className={styles.host}>{props.host}</a>
                 <p className={styles.location}>
                     <FontAwesomeIcon icon={faLocationDot}/>
                     {` ${props.location}`}
@@ -23,4 +26,4 @@ const ExperienceCard = (props) => {
     )
 }
 
-export default ExperienceCard;
+export default CompetitionCard;
