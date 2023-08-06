@@ -8,17 +8,21 @@ const EventCard = (props) => {
             <div className={styles.timeContainer}>
                 <p className={styles.time}>{props.time}</p>
             </div>
-            <div className={styles.contentContainer}>
-                <a href={props.eventSite}
-                   target='_blank'
-                   className={styles.title}>{props.title}</a>
-                <a href={props.hostSite}
-                   target='_blank'
-                   className={styles.host}>{props.host}</a>
-                <p className={styles.location}>
-                    <FontAwesomeIcon icon={faLocationDot}/>
-                    {` ${props.location}`}
-                </p>
+            <div className={styles.infoContainer}>
+                <div className={styles.spaceBetweenContainer}>
+                    <div className={styles.flexColumn}>
+                        <a href={props.eventSite}
+                           target='_blank'
+                           className={styles.title}>{props.title}</a>
+                        <a href={props.hostSite}
+                           target='_blank'
+                           className={styles.host}>{props.host}</a>
+                    </div>
+                    <p className={styles.location}>
+                        <FontAwesomeIcon icon={faLocationDot}/>
+                        {` ${props.location}`}
+                    </p>
+                </div>
                 <p>{props.content}</p>
             </div>
         </div>

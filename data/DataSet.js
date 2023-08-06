@@ -2,13 +2,13 @@ export const ExperienceData = [
     {
         id: 1,
         title: 'Software Developer',
-        company: 'Arena Management Consulting AG, Full-Time',
+        company: 'Arena Management Consulting AG',
         time: 'May 2021 - Jul. 2023',
         companySite: 'https://www.arena-banking.com/?lang=en',
         location: 'Taipei City, Taiwan',
-        content: '- Crafting extensible and scalable modules to expertly manipulate portfolios to EAM clients within the Arena ecosystem.\n' +
-            '- Employing industry-leading best practices to ensure optimal maintainability and readability of the platform.\n' +
-            '- Focusing on the continuous enhancement of the code base to streamline and maximize system performance, backed by comprehensive unit testing.\n' +
+        content: '- Crafting extensible and scalable modules to expertly manipulate portfolios to EAM clients within the Arena ecosystem.' +
+            '- Employing industry-leading best practices to ensure optimal maintainability and readability of the platform.' +
+            '- Focusing on the continuous enhancement of the code base to streamline and maximize system performance, backed by comprehensive unit testing.' +
             '- Facilitating daily peer reviews to foster mutual learning and accommodate diverse requests.'
         ,
         isCsRelated: true,
@@ -16,62 +16,62 @@ export const ExperienceData = [
     {
         id: 2,
         title: 'Software Engineer',
-        company: 'TiMOTION, Full-Time',
+        company: 'TiMOTION',
         companySite: 'https://www.timotion.com/en',
         time: 'Apr. 2020 - May 2021',
         location: 'Taipei City, Taiwan',
-        content: '- Designed and developed cutting-edge mobile applications for iOS and Android that seamlessly integrate with IoT devices.\n' +
-            '- Revamped the existing code base with the introduction of the MVVM structure and modularization, resulting in greater efficiency and ease of maintenance.\n' +
+        content: '- Designed and developed cutting-edge mobile applications for iOS and Android that seamlessly integrate with IoT devices.' +
+            '- Revamped the existing code base with the introduction of the MVVM structure and modularization, resulting in greater efficiency and ease of maintenance.' +
             '- Collaborated closely with the Firmware and Test Team to conduct integration tests, ensuring seamless functionality and optimal performance.',
         isCsRelated: true,
     },
     {
         id: 3,
         title: 'Marketing Specialist/ Visual Merchandiser',
-        company: 'HMD Global, Full-Time',
+        company: 'HMD Global',
         companySite: 'https://www.hmdglobal.com/',
         time: 'Mar. 2018 - May 2019',
         location: 'Taipei City, Taiwan',
-        content: '- Collaborated with a variety of teams and stakeholders to support global marketing efforts, including the GCR team, HK team, investors, suppliers, operators, distributors, media, agencies, and consumers.\n' +
-            '- Developed & executed marketing campaigns on mobile devices, including seasonal promotions, retail investments and also supporting social, BTL, ATL with the goal of enhancing brand awareness, purchase preference and market share.\n' +
-            '- Supported on other field forces, including sales, care and logistics with team to pursuit business objectives.\n' +
-            '- Contributed to over 200% Growth on virtual sellout in Taiwan market, made GFK virtual channel sell out grew from 4.9% in August to 10.1% in January, which surpassed Samsung\'s to be the 3rd place including Apple.\n' +
+        content: '- Collaborated with a variety of teams and stakeholders to support global marketing efforts, including the GCR team, HK team, investors, suppliers, operators, distributors, media, agencies, and consumers.' +
+            '- Developed & executed marketing campaigns on mobile devices, including seasonal promotions, retail investments and also supporting social, BTL, ATL with the goal of enhancing brand awareness, purchase preference and market share.' +
+            '- Supported on other field forces, including sales, care and logistics with team to pursuit business objectives.' +
+            '- Contributed to over 200% Growth on virtual sellout in Taiwan market, made GFK virtual channel sell out grew from 4.9% in August to 10.1% in January, which surpassed Samsung\'s to be the 3rd place including Apple.' +
             '- Assisted 3 press events and 3 fans events. Gathered over 300 exposure coverage from online and offline.',
         isCsRelated: false,
     },
     {
         id: 4,
         title: 'Creative Planner',
-        company: 'Rules Creative Ltd., Contract',
+        company: 'Rules Creative Ltd.',
         companySite: 'https://rulescreative.com/',
         time: 'Aug. 2017 - Dec. 2017',
         location: 'Taipei City, Taiwan',
-        content: '- Utilized analytical skills to conduct competitor analysis and develop effective strategy planning.\n' +
-            '- Contributed to the success of multiple marketing campaigns, with a focus on Facebook operations.\n' +
+        content: '- Utilized analytical skills to conduct competitor analysis and develop effective strategy planning.' +
+            '- Contributed to the success of multiple marketing campaigns, with a focus on Facebook operations.' +
             '- Demonstrated a proven ability to manage budgets effectively and meet assigned key performance indicators (KPIs).',
         isCsRelated: false,
     },
     {
         id: 5,
-        title: 'Marketing Graphic Designer',
-        company: 'NICECAM TECHNOLOGY CO., LTD., Contract',
+        title: 'Marketing Graphic Designer, Contract',
+        company: 'NICECAM TECHNOLOGY CO., LTD.',
         companySite: 'https://www.linkedin.com/company/nicecam/about/',
         time: 'Mar. 2017 - Jun. 2017',
         location: 'Taipei City, Taiwan',
-        content: '- Led the redesign of the entire set of product specifications and served as the primary decision maker in the development of a new brand webpage.\n' +
-            '- Created and executed an effective marketing plan for Secutech 2017 exhibition, resulting in increased brand awareness and sales.\n' +
+        content: '- Led the redesign of the entire set of product specifications and served as the primary decision maker in the development of a new brand webpage.' +
+            '- Created and executed an effective marketing plan for Secutech 2017 exhibition, resulting in increased brand awareness and sales.' +
             '- Demonstrated strong project management skills by successfully overseeing the redesign of product specs and the development of a new brand webpage.',
         isCsRelated: false,
     },
     {
         id: 6,
-        title: 'Project Assistant',
-        company: 'BoniO Inc., Internship',
+        title: 'Project Assistant, Internship',
+        company: 'BoniO Inc.',
         companySite: 'https://www.bonio.co/',
         time: 'Sep. 2015 - Dec. 2015',
         location: 'Taipei City, Taiwan',
-        content: '- Successfully planned and executed the "Calculus World Cup" online marketing campaign, resulting in a participation of over 2,000 people from 45 countries.\n' +
-            '- Led data analysis efforts to improve the effectiveness of online marketing campaigns and identify key areas for improvement.\n' +
+        content: '- Successfully planned and executed the "Calculus World Cup" online marketing campaign, resulting in a participation of over 2,000 people from 45 countries.' +
+            '- Led data analysis efforts to improve the effectiveness of online marketing campaigns and identify key areas for improvement.' +
             '- Contributed to the Dandelion project, focusing on creating an effective user database and improving the quality of service for new clients.',
         isCsRelated: false,
     }
@@ -84,15 +84,15 @@ export const EducationData = [
         program: 'Computer Science, Certificate',
         time: '2019 - 2020',
         location: 'Taipei City, Taiwan',
-        content: 'Throughout the study, 3 practical projects fostered the in depth knowledge of tool manipulation and algorithm optimizing.\n' +
-            '\n' +
-            '- Bunny Shift/ Xcode (Swift 5.2)\n' +
-            'A dual platform app, aimed to simplify service workers\' redundancy of doing shift arrangement with paper and inefficient leave taking process.\n' +
-            '\n' +
-            '- Undercover/ Android Studio (Java 8)\n' +
-            'An independent board game app that connects to Google Sheet data base for random puzzles.\n' +
-            '\n' +
-            '- Alien Defender/ NetBeans 8.0.2 (Java 8)\n' +
+        content: 'Throughout the study, 3 practical projects fostered the in depth knowledge of tool manipulation and algorithm optimizing.' +
+            '' +
+            '- Bunny Shift/ Xcode (Swift 5.2)' +
+            'A dual platform app, aimed to simplify service workers\' redundancy of doing shift arrangement with paper and inefficient leave taking process.' +
+            '' +
+            '- Undercover/ Android Studio (Java 8)' +
+            'An independent board game app that connects to Google Sheet data base for random puzzles.' +
+            '' +
+            '- Alien Defender/ NetBeans 8.0.2 (Java 8)' +
             'Am Alien tower defense game, which is easy playing with intensively strategy taking over its pixel style graphic.',
         isCsRelated: true,
     },
@@ -102,8 +102,8 @@ export const EducationData = [
         program: 'International Business and Economics, Exchange',
         time: '2016 - 2017',
         location: 'Magdeburg, Germany',
-        content: 'IKUS Interkulturelle Studenten Magdeburg\n' +
-            ' - Created favorable social events for all students\n' +
+        content: 'IKUS Interkulturelle Studenten Magdeburg' +
+            ' - Created favorable social events for all students' +
             ' - Organized and cooperated with school on international activities',
         isCsRelated: false,
     },
@@ -122,9 +122,9 @@ export const EducationData = [
         program: 'Business Management, Bachelor',
         time: '2012 - 2016',
         location: 'Miaoli, Taiwan',
-        content: 'NUU Goodwill Ambassador Group\n' +
-            'NUU Business Elite\n' +
-            'NUU Case Study Competition\n' +
+        content: 'NUU Goodwill Ambassador Group' +
+            'NUU Business Elite' +
+            'NUU Case Study Competition' +
             'Research Project: Total Quality Control - Tachien Hospital',
         isCsRelated: false,
     },
@@ -468,7 +468,7 @@ export const SkillData = [
     {
         id: 3,
         title: 'Tool',
-        skills: ['Github', 'Gitlab', 'Docker', 'Oracle RDBMS', 'JMockit', 'NextJS', 'Maven', 'Tomcat', 'Hibernate'],
+        skills: ['Github', 'Gitlab', 'Docker', 'Oracle RDBMS', 'JMockit', 'Maven', 'Tomcat', 'Hibernate', 'NextJS',],
     },
     {
         id: 4,

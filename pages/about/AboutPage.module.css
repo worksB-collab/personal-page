@@ -23,6 +23,7 @@
 .accordion .content a,
 .accordion .content h5 {
     text-align: left;
+    font-size: 11pt;
     font-family: "Anek Latin", "Barlow", "Fira Sans", sans-serif;
 }
 

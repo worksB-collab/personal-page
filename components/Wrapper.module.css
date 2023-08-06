@@ -15,13 +15,13 @@
 }
 
 .wideCard {
-    max-width: 900px;
+    max-width: 1200px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1200px) {
     .card {
         margin-top: 20px;
-        padding: 40px 40px;
+        padding: 40px 30px;
     }
 
     .wideCard {

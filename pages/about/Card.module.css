@@ -24,6 +24,7 @@
 
 .school {
     color: #555555;
+    font-weight: 700;
 }
 
 .program {
@@ -31,12 +32,11 @@
 }
 
 .location {
-    font-size: 10pt;
     color: #777777;
 }
 
 .company {
-    color: #555555;
+    color: #777777;
 }
 
 .price {
@@ -49,22 +49,34 @@
 }
 
 .timeContainer {
-    flex: 1.2;
+    flex: 1.0;
 }
 
-.contentContainer {
+.infoContainer {
     display: flex;
     flex-direction: column;
     flex: 4;
 }
 
+.flexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.spaceBetweenContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+}
+
 .time {
-    font-size: 10pt;
     color: #777777;
 }
 
 .content {
     color: #555555;
+    line-height: 25px;
 }
 
 .skillContainer {
@@ -82,13 +94,19 @@
     padding: 5px;
     border: 1px solid #aaaaaa;
     border-radius: 5px;
-    font-size: 12px;
+    font-size: 10pt !important;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1200px) {
     .card {
         flex-direction: column;
         margin: 15px auto;
+        padding: 15px 30px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .card {
         padding: 15px 20px;
     }
 }

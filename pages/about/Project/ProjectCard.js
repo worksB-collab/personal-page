@@ -6,7 +6,7 @@ const ProjectCard = (props) => {
             <div className={styles.timeContainer}>
                 <p className={styles.time}>{props.time}</p>
             </div>
-            <div className={styles.contentContainer}>
+            <div className={styles.infoContainer}>
                 <h5 className={styles.title}>{props.title}</h5>
                 <p>{props.content}</p></div>
         </div>

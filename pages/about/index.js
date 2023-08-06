@@ -70,9 +70,6 @@ const AboutPage = () => {
         <WideWrapper>
             <h2 className={aboutPageStyles.name}>Ping-Chun, Wu (Billy)</h2>
             <div className={aboutPageStyles.section}>
-                {/*<AccordionItem id={'about'}*/}
-                {/*               header={'About'}*/}
-                {/*               onPlusClickHandler={onPlusClickHandler}>*/}
                 <p className={aboutPageStyles.aboutMe}>
                     As a backend software engineer, I have had the opportunity to work in both fintech and IoT
                     industries. I possess extensive experience in Agile practices. I am passionate about helping my
@@ -80,7 +77,13 @@ const AboutPage = () => {
                     deliver efficient and high-quality software. I am always looking for ways to improve my
                     problem-solving skills and eager to learn and grow alongside my team.
                 </p>
-                {/*</AccordionItem>*/}
+                <AccordionItem id={'skill'}
+                               header={'Skill'}
+                               collapse={accordionsCollapse['skill']}
+                               onPlusClickHandler={onPlusClickHandler}
+                               onMinusClickHandler={onMinusClickHandler}>
+                    <SkillSection/>
+                </AccordionItem>
                 <AccordionItem id={'experience'}
                                header={'Experience'}
                                collapse={accordionsCollapse['experience']}
@@ -97,6 +100,14 @@ const AboutPage = () => {
                                onMinusClickHandler={onMinusClickHandler}>
                     <EducationSection isCsRelated={isCsRelatedToggles['education']}/>
                 </AccordionItem>
+                <AccordionItem id={'onlineCourse'}
+                               header={'OnlineCourse'}
+                               collapse={accordionsCollapse['onlineCourse']}
+                               setIsCsRelated={setIsCsRelatedToggles}
+                               onPlusClickHandler={onPlusClickHandler}
+                               onMinusClickHandler={onMinusClickHandler}>
+                    <OnlineCourseSection isCsRelated={isCsRelatedToggles['onlineCourse']}/>
+                </AccordionItem>
                 <AccordionItem id={'project'}
                                header={'Project'}
                                collapse={accordionsCollapse['project']}
@@ -104,14 +115,6 @@ const AboutPage = () => {
                                onPlusClickHandler={onPlusClickHandler}
                                onMinusClickHandler={onMinusClickHandler}>
                     <ProjectSection isCsRelated={isCsRelatedToggles['project']}/>
-                </AccordionItem>
-                <AccordionItem id={'license'}
-                               header={'License'}
-                               collapse={accordionsCollapse['license']}
-                               setIsCsRelated={setIsCsRelatedToggles}
-                               onPlusClickHandler={onPlusClickHandler}
-                               onMinusClickHandler={onMinusClickHandler}>
-                    <LicenseSection isCsRelated={isCsRelatedToggles['license']}/>
                 </AccordionItem>
                 <AccordionItem id={'event'}
                                header={'Event'}
@@ -121,13 +124,13 @@ const AboutPage = () => {
                                onMinusClickHandler={onMinusClickHandler}>
                     <EventSection isCsRelated={isCsRelatedToggles['event']}/>
                 </AccordionItem>
-                <AccordionItem id={'onlineCourse'}
-                               header={'OnlineCourse'}
-                               collapse={accordionsCollapse['onlineCourse']}
+                <AccordionItem id={'license'}
+                               header={'License'}
+                               collapse={accordionsCollapse['license']}
                                setIsCsRelated={setIsCsRelatedToggles}
                                onPlusClickHandler={onPlusClickHandler}
                                onMinusClickHandler={onMinusClickHandler}>
-                    <OnlineCourseSection isCsRelated={isCsRelatedToggles['onlineCourse']}/>
+                    <LicenseSection isCsRelated={isCsRelatedToggles['license']}/>
                 </AccordionItem>
                 <AccordionItem id={'competition'}
                                header={'Competition'}
@@ -137,13 +140,7 @@ const AboutPage = () => {
                                onMinusClickHandler={onMinusClickHandler}>
                     <CompetitionSection isCsRelated={isCsRelatedToggles['competition']}/>
                 </AccordionItem>
-                <AccordionItem id={'skill'}
-                               header={'Skill'}
-                               collapse={accordionsCollapse['skill']}
-                               onPlusClickHandler={onPlusClickHandler}
-                               onMinusClickHandler={onMinusClickHandler}>
-                    <SkillSection/>
-                </AccordionItem>
+
             </div>
             <SocialLinks/>
         </WideWrapper>

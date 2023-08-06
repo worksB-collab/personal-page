@@ -6,14 +6,14 @@ const OnlineCourseCard = (props) => {
             <div className={styles.timeContainer}>
                 <p className={styles.time}>{props.time}</p>
             </div>
-            <div className={styles.contentContainer}>
+            <div className={styles.infoContainer}>
                 <a href={props.courseUrl}
                    target='_blank'
                    className={styles.title}>{props.title}</a>
                 <a href={props.hostSite}
                    target='_blank'
                    className={styles.host}>{props.host}</a>
-                <p>{props.content}</p>
+                {/*<p>{props.content}</p>*/}
             </div>
         </div>
     )

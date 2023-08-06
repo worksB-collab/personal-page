@@ -8,14 +8,26 @@ const EducationCard = (props) => {
             <div className={styles.timeContainer}>
                 <p className={styles.time}>{props.time}</p>
             </div>
-            <div className={styles.contentContainer}>
-                <h5 className={styles.school}>{props.school}</h5>
-                <p className={styles.program}>{props.program}</p>
-                <p className={styles.location}>
-                    <FontAwesomeIcon icon={faLocationDot}/>
-                    {` ${props.location}`}
-                </p>
-                <p>{props.content}</p>
+            <div className={styles.infoContainer}>
+                <div className={styles.spaceBetweenContainer}>
+                    <div className={styles.flexColumn}>
+                        <h5 className={styles.school}>{props.school}</h5>
+                        <p className={styles.program}>{props.program}</p>
+                    </div>
+                    <p className={styles.location}>
+                        <FontAwesomeIcon icon={faLocationDot}/>
+                        {` ${props.location}`}
+                    </p>
+                </div>
+                {
+                    props.content.split('- ')
+                        .filter(item => item.length > 0)
+                        .map((item, index) => {
+                            return (
+                                <p key={index} className={styles.content}>{`◆ ${item}`}</p>
+                            )
+                        })
+                }
             </div>
         </div>
     )
