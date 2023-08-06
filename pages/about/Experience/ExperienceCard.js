@@ -22,7 +22,7 @@ const ExperienceCard = (props) => {
                     </p>
                 </div>
                 {
-                    props.content.split('- ')
+                    props.content && props.content.split('- ')
                         .filter(item => item.length > 0)
                         .map((item, index) => {
                             return (
