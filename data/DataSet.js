@@ -354,6 +354,17 @@ export const EventData = [
         content: '',
         isCsRelated: true,
     },
+    {
+        id: 6,
+        title: 'BFA',
+        eventSite: 'https://www.bfa.com.tw/bfaevent',
+        host: 'PowerForPoint',
+        hostSite: 'https://www.powerforpoint.com/',
+        time: 'Dev 21, 2017',
+        location: 'Taipei, Taiwan',
+        content: '',
+        isCsRelated: false,
+    }
 ];
 export const OnlineCourseData = [
     {
