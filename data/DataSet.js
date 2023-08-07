@@ -84,16 +84,9 @@ export const EducationData = [
         program: 'Computer Science, Certificate',
         time: '2019 - 2020',
         location: 'Taipei City, Taiwan',
-        content: 'Throughout the study, 3 practical projects fostered the in depth knowledge of tool manipulation and algorithm optimizing.' +
-            '' +
-            '- Bunny Shift/ Xcode (Swift 5.2)' +
-            'A dual platform app, aimed to simplify service workers\' redundancy of doing shift arrangement with paper and inefficient leave taking process.' +
-            '' +
-            '- Undercover/ Android Studio (Java 8)' +
-            'An independent board game app that connects to Google Sheet data base for random puzzles.' +
-            '' +
-            '- Alien Defender/ NetBeans 8.0.2 (Java 8)' +
-            'Am Alien tower defense game, which is easy playing with intensively strategy taking over its pixel style graphic.',
+        content: '- Acquired a solid foundation in Object-Oriented Programming (OOP), data structures, and algorithms through dedicated self-study and coursework. ' +
+            '- Successfully completed three substantial projects that not only honed my skills in tool manipulation but also deepened my understanding of algorithm optimization.' +
+            '- Developed a strong collaborative aptitude by actively participating in team projects and interacting with fellow developers. Cultivated the ability to effectively communicate ideas, share insights, and contribute to a positive and productive team environment',
         isCsRelated: true,
     },
     {
@@ -102,9 +95,8 @@ export const EducationData = [
         program: 'International Business and Economics, Exchange',
         time: '2016 - 2017',
         location: 'Magdeburg, Germany',
-        content: 'IKUS Interkulturelle Studenten Magdeburg' +
-            ' - Created favorable social events for all students' +
-            ' - Organized and cooperated with school on international activities',
+        content: '- Participated in Interkulturelle Studenten Magdeburg (IKUS) volunteer efforts, curating inclusive social events for diverse students, fostering cross-cultural connections.' +
+            '- Attained proficiency in the German language, enhancing communication and integration within the local community and academic setting.',
         isCsRelated: false,
     },
     {
@@ -113,7 +105,7 @@ export const EducationData = [
         program: 'Business Administration, Exchange',
         time: '2016',
         location: 'Yamaguchi, Japan',
-        content: 'Researched program in field of Open Innovation',
+        content: 'Delved into the realm of Open Innovation, exploring its methodologies and impact, contributing to a deeper understanding of modern collaborative practices and real case studies.',
         isCsRelated: false,
     },
     {
@@ -122,10 +114,9 @@ export const EducationData = [
         program: 'Business Management, Bachelor',
         time: '2012 - 2016',
         location: 'Miaoli, Taiwan',
-        content: 'NUU Goodwill Ambassador Group' +
-            'NUU Business Elite' +
-            'NUU Case Study Competition' +
-            'Research Project: Total Quality Control - Tachien Hospital',
+        content: '- Spearheaded a transformative project at Tachien Hospital, utilizing statistical data to enhance workflow, monitor, and optimize various sections for improved efficiency.' +
+            '- Actively engaged in official events and international affairs as a Goodwill Ambassador, broadening horizons and fostering cross-border connections.' +
+            '- Pioneered impactful courses for members, facilitating skill exchange, conducting case study competitions, and nurturing logical problem-solving abilities essential for addressing real-world corporate challenges.',
         isCsRelated: false,
     },
 ];
@@ -171,21 +162,21 @@ export const ProjectData = [
         id: 6,
         title: 'Undercover',
         time: 'Nov. 2019 - Dec. 2019',
-        content: 'A spy board game built on Android',
+        content: 'Created an immersive spy-themed board game on the Android platform, combining creativity, coding expertise, and user-centric design for captivating gameplay.',
         isCsRelated: true,
     },
     {
         id: 7,
         title: 'Alien Defender',
         time: 'Oct. 2019 - Nov. 2019',
-        content: 'A Java based tower defense game built with NetBeans',
+        content: 'Developed an engaging tower defense game using Java within NetBeans, showcasing programming proficiency, game design skills, and interactive user experience.',
         isCsRelated: true,
     },
     {
         id: 8,
         title: 'Tank Battle',
         time: 'Jul. 2019',
-        content: '"Tank Battle" is a game where the objective is to reach the enemy camp and destroy their emblem or defeat all enemies as the means of victory. Throughout the game, various bricks or obstacles are interspersed, and players need to overcome these challenges by understanding the characteristics of the enemies and the environment. Inspired by this, I have conceived the idea of creating a similar game that utilizes tank movement and attack gameplay. By leveraging the features of Scratch, I plan to transform it into another fun little game.',
+        content: '"Tank Battle" aims to conquer enemies\' camp by destroying their emblem or all foes. Navigating obstacles, understanding enemy traits, I\'m envisioning a Scratch-based tank game, merging movement and attack mechanics for enjoyable gameplay.',
         isCsRelated: true,
     },
     {
@@ -318,19 +309,49 @@ export const EventData = [
         eventSite: 'https://coscup.org/2023/en/',
         host: 'Open Culture Foundation',
         hostSite: 'https://ocf.tw/p/coscup/',
-        time: 'Jul. 2023 29 - 31',
+        time: 'Jul. 29 - 31, 2023',
         location: 'Taipei, Taiwan',
-        content: '- Volunteer: ',
+        content: 'Dedicatedly volunteered for Coscup 2023 event, advocating open source ideals, and contributing to community growth and promotion.',
         isCsRelated: true,
     }, {
         id: 2,
+        title: 'JCConf Taiwan 2022',
+        eventSite: 'https://jcconf.tw/2022/',
+        host: 'JCConf',
+        hostSite: 'https://jcconf.tw/2021/',
+        time: 'Sep. 3 - 4, 2022',
+        location: 'Taipei, Taiwan',
+        content: '',
+        isCsRelated: true,
+    }, {
+        id: 3,
+        title: 'PyCon 2022',
+        eventSite: 'https://tw.pycon.org/2023/en-us',
+        host: 'PyCon Taiwan',
+        hostSite: 'https://tw.pycon.org/2023/en-us/about',
+        time: 'Sep. 3 - 4, 2022',
+        location: 'Taipei, Taiwan',
+        content: '',
+        isCsRelated: true,
+    }, {
+        id: 4,
         title: 'Coscup 2022',
         eventSite: 'https://coscup.org/2022/en/',
         host: 'Open Culture Foundation',
         hostSite: 'https://ocf.tw/p/coscup/',
-        time: 'Jul. 2022 29 - 31',
+        time: 'Jul. 29 - 31, 2022',
         location: 'Taipei, Taiwan',
-        content: 'Conference for Open Source Coders, Users and Promoters',
+        content: '',
+        isCsRelated: true,
+    }, {
+        id: 5,
+        title: 'JCConf Taiwan 2021',
+        eventSite: 'https://jcconf.tw/2021/',
+        host: 'JCConf',
+        hostSite: 'https://jcconf.tw/2021/',
+        time: 'Nov 19, 2021',
+        location: 'Online',
+        content: '',
         isCsRelated: true,
     },
 ];
