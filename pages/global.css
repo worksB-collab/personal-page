@@ -5,7 +5,9 @@ h1, h2 {
 
 h1, h2, h3, h4, h5, a, p {
     color: #282828;
-    font-family: monospace, monospace;
+    /*font-family: monospace, monospace;*/
+
+    font-family: "Anek Latin", sans-serif;
     text-align: center;
     text-decoration: none;
     margin: 0;

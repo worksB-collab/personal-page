@@ -101,7 +101,7 @@ const AboutPage = () => {
                     <EducationSection isCsRelated={isCsRelatedToggles['education']}/>
                 </AccordionItem>
                 <AccordionItem id={'onlineCourse'}
-                               header={'OnlineCourse'}
+                               header={'Online Course'}
                                collapse={accordionsCollapse['onlineCourse']}
                                setIsCsRelated={setIsCsRelatedToggles}
                                onPlusClickHandler={onPlusClickHandler}

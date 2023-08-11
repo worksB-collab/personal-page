@@ -5,6 +5,7 @@ import './global.css';
 import "@fortawesome/fontawesome-svg-core/styles.css";
 
 import {config} from "@fortawesome/fontawesome-svg-core";
+import Head from "next/head";
 // Tell Font Awesome to skip adding the CSS automatically
 // since it's already imported above
 config.autoAddCss = false;
@@ -12,7 +13,12 @@ config.autoAddCss = false;
 
 function MyApp({Component, pageProps}) {
     return (
-        <Component {...pageProps} />
+        <>
+            <Head>
+                <title>Billy Wu</title>
+            </Head>
+            <Component {...pageProps} />
+        </>
     )
 }
 

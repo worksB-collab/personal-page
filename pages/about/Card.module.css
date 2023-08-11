@@ -91,10 +91,10 @@
 
 .skillTag {
     margin: 10px 10px 0 0;
-    padding: 5px;
+    padding: 5px 8px;
     border: 1px solid #aaaaaa;
     border-radius: 5px;
-    font-size: 10pt !important;
+    font-size: 11pt !important;
 }
 
 @media screen and (max-width: 1200px) {
