@@ -23,7 +23,7 @@ const EventCard = (props) => {
                         {` ${props.location}`}
                     </p>
                 </div>
-                <p>{props.content}</p>
+                <p className={styles.content}>{props.content}</p>
             </div>
         </div>
     )

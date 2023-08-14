@@ -8,7 +8,7 @@ const ProjectCard = (props) => {
             </div>
             <div className={styles.infoContainer}>
                 <h5 className={styles.title}>{props.title}</h5>
-                <p>{props.content}</p></div>
+                <p className={styles.content}>{props.content}</p></div>
         </div>
     )
 }
