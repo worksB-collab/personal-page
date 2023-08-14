@@ -69,3 +69,10 @@
 .hrLine {
     border: 1px solid #cccccc;
 }
+
+
+@media screen and (max-width: 400px) {
+    .aboutMe {
+        font-size: 12pt;
+    }
+}
