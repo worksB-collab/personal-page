@@ -26,6 +26,7 @@
 .school {
     color: #555555;
     font-weight: 700;
+    margin: 0;
 }
 
 .program {
@@ -35,6 +36,7 @@
 
 .location {
     color: #777777;
+    margin: 0;
 }
 
 .company {
@@ -50,6 +52,7 @@
 
 .host {
     color: #555555;
+    margin: 0;
 }
 
 .timeContainer {
