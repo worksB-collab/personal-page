@@ -30,6 +30,7 @@
 
 .program {
     color: #555555;
+    margin: 0;
 }
 
 .location {
@@ -43,6 +44,7 @@
 .price {
     font-weight: 700;
     color: #555555;
+    margin: 0;
 }
 
 .host {
