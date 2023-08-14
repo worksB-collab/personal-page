@@ -20,6 +20,7 @@
     text-align: left;
     font-weight: 700;
     color: #555555;
+    margin: 0;
 }
 
 .school {
@@ -77,6 +78,7 @@
 .content {
     color: #555555;
     line-height: 25px;
+    margin: 0;
 }
 
 .skillContainer {
