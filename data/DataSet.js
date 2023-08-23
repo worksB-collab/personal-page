@@ -91,7 +91,7 @@ export const EducationData = [
     },
     {
         id: 2,
-        school: 'Otto-von-Guericke-Universität MagdeburgOtto-von-Guericke-Universität Magdeburg',
+        school: 'Otto von Guericke University Magdeburg',
         program: 'International Business and Economics, Exchange',
         time: '2016 - 2017',
         location: 'Magdeburg, Germany',
