@@ -16,6 +16,10 @@ function MyApp({Component, pageProps}) {
         <>
             <Head>
                 <title>Billy Wu</title>
+                <link
+                    rel="icon"
+                    href="/images/code.png"
+                />
             </Head>
             <Component {...pageProps} />
         </>
