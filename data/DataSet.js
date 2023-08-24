@@ -507,16 +507,16 @@ export const SkillData = [
     {
         id: 2,
         title: 'Framework',
-        skills: ['ReactJS', 'ExtJS', 'Spring Boot'],
+        skills: ['NextJS', 'ExtJS', 'Spring Boot', 'JUnit', 'JMockit'],
     },
     {
         id: 3,
         title: 'Tool',
-        skills: ['Github', 'Gitlab', 'Docker', 'Oracle RDBMS', 'JMockit', 'Maven', 'Tomcat', 'Hibernate', 'NextJS',],
+        skills: ['Github', 'Gitlab', 'Docker', 'Oracle RDBMS', 'Maven', 'Tomcat', 'Hibernate',],
     },
     {
         id: 4,
         title: 'Platform',
-        skills: ['Linux', 'AWS (EC2/S3)', 'GCP', 'iOS', 'Android'],
+        skills: ['Linux', 'Heroku', 'AWS (EC2/S3)', 'GCP', 'Firebase', 'iOS', 'Android'],
     },
 ];
