@@ -125,7 +125,7 @@ const AboutPage = () => {
                     <EventSection isCsRelated={isCsRelatedToggles['event']}/>
                 </AccordionItem>
                 <AccordionItem id={'license'}
-                               header={'License'}
+                               header={'Certificate & License'}
                                collapse={accordionsCollapse['license']}
                                setIsCsRelated={setIsCsRelatedToggles}
                                onPlusClickHandler={onPlusClickHandler}
