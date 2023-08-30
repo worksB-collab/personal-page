@@ -11,6 +11,7 @@ import CompetitionSection from "@/pages/about/Competition/CompetitionSection";
 import OnlineCourseSection from "@/pages/about/OnlineCourse/OnlineCourseSection";
 import EventSection from "@/pages/about/Event/EventSection";
 import SkillSection from "@/pages/about/Skill/SkillSection";
+import {useRouter} from "next/navigation";
 
 const AboutPage = () => {
 
@@ -35,6 +36,7 @@ const AboutPage = () => {
         skill: false,
     });
 
+    const router = useRouter();
     const onPlusClickHandler = (e) => {
         const button = e.target;
         const id = button.id;
@@ -50,7 +52,7 @@ const AboutPage = () => {
             }
         });
 
-        button.scrollIntoView();
+        router.push(`#${id}`);
     }
 
     const onMinusClickHandler = (e) => {
