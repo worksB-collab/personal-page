@@ -70,7 +70,7 @@ const AboutPage = () => {
 
     return (
         <WideWrapper>
-            <h2 className={aboutPageStyles.name}>Ping-Chun, Wu (Billy)</h2>
+            <h2 className={aboutPageStyles.name}>Ping-Chun (Billy) Wu</h2>
             <div className={aboutPageStyles.section}>
                 <p className={aboutPageStyles.aboutMe}>
                     As a backend software engineer, I have had the opportunity to work in both fintech and IoT

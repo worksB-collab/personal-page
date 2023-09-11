@@ -512,7 +512,7 @@ export const SkillData = [
     {
         id: 3,
         title: 'Tool',
-        skills: ['Github', 'Gitlab', 'Docker', 'Oracle RDBMS', 'Maven', 'Tomcat', 'Hibernate',],
+        skills: ['Github', 'Gitlab', 'Docker', 'Oracle RDBMS', 'PostgreSQL', 'Maven', 'Tomcat', 'Hibernate',],
     },
     {
         id: 4,
