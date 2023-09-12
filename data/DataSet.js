@@ -195,21 +195,21 @@ export const ProjectData = [
     },
     {
         id: 11,
-        title: 'Nokia 8.1',
+        title: 'Nokia 8.1 debut',
         time: 'Dec. 2018',
         content: '',
         isCsRelated: false,
     },
     {
         id: 12,
-        title: 'Nokia 3.1 Plus',
+        title: 'Nokia 3.1 Plus debut',
         time: 'Nov. 2018',
         content: '',
         isCsRelated: false,
     },
     {
         id: 13,
-        title: 'Nokia 5.1 Plus',
+        title: 'Nokia 5.1 Plus debut',
         time: 'Oct. 2018',
         content: '',
         isCsRelated: false,
@@ -237,7 +237,7 @@ export const ProjectData = [
     },
     {
         id: 17,
-        title: 'Nokia tri debut 北中南經銷商大會 and Fans gathering',
+        title: 'Nokia tri debut, wholesale conference and Fans gathering',
         time: 'Mar. 2018 - May 2018',
         content: 'Nokia 7 Plus, Nokia 8 Sirocco, the new Nokia 6',
         isCsRelated: false,
