@@ -21,7 +21,7 @@ const Homepage = () => {
             <h4 className={styles.profileName}>Ping-Chun, Wu (Billy)</h4>
             <h5 className={styles.profileTitle}>Software Developer at Arena Banking</h5>
             <div className={styles.linkButtons}>
-                <Link href={'https://drive.google.com/file/d/13n7A-SdB6bREejo3eTFbmidxuIszo_bW/view?usp=sharing'}
+                <Link href={'https://drive.google.com/file/d/1XBem2gtodF5f1_103e3IxuXf_OP0fNU3/view?usp=sharing'}
                       target='_blank'>
                     <FontAwesomeIcon icon={faFilePdf}/> CV
                 </Link>
