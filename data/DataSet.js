@@ -6,10 +6,9 @@ export const ExperienceData = [
         time: 'May 2021 - Jul. 2023',
         companySite: 'https://www.arena-banking.com/?lang=en',
         location: 'Taipei City, Taiwan',
-        content: '- Crafting extensible and scalable modules to expertly manipulate portfolios to EAM clients within the Arena ecosystem.' +
-            '- Employing industry-leading best practices to ensure optimal maintainability and readability of the platform.' +
-            '- Focusing on the continuous enhancement of the code base to streamline and maximize system performance, backed by comprehensive unit testing.' +
-            '- Facilitating daily peer reviews to foster mutual learning and accommodate diverse requests.'
+        content: '- Designed and implemented 23 extensible and scalable modules, resulting in 12% improvement in system performance.' +
+            '- Employed industry-leading best practices to ensure optimal maintainability and readability of the platform.' +
+            '- Conducted daily peer reviews and comprehensive software testing, including unit testing and integration testing to identify and fix defects, ensuring the software products were robust and stable.'
         ,
         isCsRelated: true,
     },
@@ -20,8 +19,8 @@ export const ExperienceData = [
         companySite: 'https://www.timotion.com/en',
         time: 'Apr. 2020 - May 2021',
         location: 'Taipei City, Taiwan',
-        content: '- Designed and developed cutting-edge mobile applications for iOS and Android that seamlessly integrate with IoT devices.' +
-            '- Revamped the existing code base with the introduction of the MVVM structure and modularization, resulting in greater efficiency and ease of maintenance.' +
+        content: '- Designed and developed 4 cutting-edge mobile apps for iOS and Android that seamlessly integrate with IoT devices.' +
+            '- Revamped the existing code base with the introduction of the MVVM structure and modularization, resulting in a 20% improvement in system performance and ease of maintenance.' +
             '- Collaborated closely with the Firmware and Test Team to conduct integration tests, ensuring seamless functionality and optimal performance.',
         isCsRelated: true,
     },
