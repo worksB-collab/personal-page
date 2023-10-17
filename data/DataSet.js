@@ -7,7 +7,7 @@ export const ExperienceData = [
         companySite: 'https://www.arena-banking.com/?lang=en',
         location: 'Taipei City, Taiwan',
         content:
-            '- Designed features of a full-stack financial system web application using SpringBoot, Hibernate, Tomcat, OracleDB, for backend, ReactJS and ExtJS for frontend.' +
+            '- Designed features of a full-stack financial system web application using SpringBoot, Hibernate, Tomcat, OracleDB, for the backend, ReactJS and ExtJS for the frontend.' +
             '- Maintained 23 extensible and scalable modules, and boosted system performance by 12% improvement by optimizing API calls.' +
             '- Conducted daily peer reviews and comprehensive software testing, employed JMockit and JUnit for unit testing and integration testing.'
         ,
@@ -20,8 +20,8 @@ export const ExperienceData = [
         companySite: 'https://www.timotion.com/en',
         time: 'Apr. 2020 - May 2021',
         location: 'Taipei City, Taiwan',
-        content: '- Designed and developed 4 mobile apps using Swift for iOS and Java for Android, applying design patterns, including Builder pattern, Singleton pattern and Adapter pattern.' +
-            '- Introduced MVVM structure for an legacy project, resulting in a reduction of code length by 26%, and improved system performance.' +
+        content: '- Designed and developed 4 mobile apps using Swift for iOS and Java for Android, applying design patterns, including Builder pattern, Singleton pattern, and Adapter pattern.' +
+            '- Introduced MVVM structure for a legacy project, resulting in a reduction of code length by 26%, and improved system performance.' +
             '- Collaborated closely with the Firmware and Test Team to conduct integration tests, ensuring seamless functionality and optimal performance.',
         isCsRelated: true,
     },
