@@ -400,7 +400,7 @@ export const OnlineCourseData = [
         courseUrl: 'https://www.udemy.com/course/100-days-of-code/',
         host: 'App Brewery',
         hostSite: 'https://www.londonappbrewery.com/',
-        time: 'Mar. 2021 - Sep. 2021',
+        time: 'Sep. 2021 - Dec. 2021',
         content: 'Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!',
         isCsRelated: true,
     }, {
@@ -409,7 +409,7 @@ export const OnlineCourseData = [
         courseUrl: 'https://www.udemy.com/course/the-complete-javascript-course/',
         host: 'CodingHeroes by Jonas Schmedtmann',
         hostSite: 'https://codingheroes.io/',
-        time: 'Jun. 2020 - Jul. 2020',
+        time: 'Jun. 2021 - Jul. 2021',
         content: 'The modern JavaScript course for everyone! Master JavaScript with projects, challenges and theory. Many courses in one!',
         isCsRelated: true,
     }, {
@@ -418,7 +418,7 @@ export const OnlineCourseData = [
         courseUrl: 'https://www.udemy.com/course/java-the-complete-java-developer-course/',
         host: 'The Learn Programming Academy',
         hostSite: 'https://learnprogramming.academy/',
-        time: 'May 2020 - Jun. 2020',
+        time: 'May 2021 - Jun. 2021',
         content: 'Learn Java In This Course And Become a Computer Programmer. Obtain valuable Core Java Skills And Java Certification',
         isCsRelated: true,
     },
