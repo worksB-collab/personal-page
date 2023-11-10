@@ -114,9 +114,9 @@ export const EducationData = [
         program: 'Business Management, Bachelor',
         time: '2012 - 2016',
         location: 'Miaoli, Taiwan',
-        content: '- Spearheaded a transformative project at Tachien Hospital, utilizing statistical data to enhance workflow, monitor, and optimize various sections for improved efficiency.' +
-            '- Actively engaged in official events and international affairs as a Goodwill Ambassador, broadening horizons and fostering cross-border connections.' +
-            '- Pioneered impactful courses for members, facilitating skill exchange, conducting case study competitions, and nurturing logical problem-solving abilities essential for addressing real-world corporate challenges.',
+        content: '- Actively participated in academic and extracurricular activities in Business, which have honed my analytical and logical problem-solving skills through theoretical methods, case studies, and competitive events. As a result, my teams and I have secured three first-place finishes in regional contests.' +
+            '- Spearheaded the graduation project at Dachien Hospital. We utilized the Quality Control Circle method to analyze issues and enhanced the workflow of ten departments. One of our most remarkable improvements resulted in a 53% reduction in time after the implementations.' +
+            '- Involved in Open Innovation research in Japan and an exchange program in Germany. These opportunities allowed me to broaden my academic and practical horizons while fostering invaluable cross-border connections.',
         isCsRelated: false,
     },
 ];
