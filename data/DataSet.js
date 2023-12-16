@@ -1,5 +1,18 @@
 export const ExperienceData = [
     {
+        id: 0,
+        title: 'Software Developer',
+        company: 'Rybit Technology',
+        time: 'Dec. 2023 - Present',
+        companySite: 'https://www.rybit.io/',
+        location: 'Taipei City, Taiwan',
+        content:
+            '- Utilizing SpringBoot, Elasticsearch, Redis, and MySQL for efficient data manipulation. Along with React Native to design and implement core features for a bike-sharing microservice system.' +
+            '- Incorporating AWS services such as EKS, SQS, and ELB to ensure system reliability.'
+        ,
+        isCsRelated: true,
+    },
+    {
         id: 1,
         title: 'Software Developer',
         company: 'Arena Management Consulting AG',
