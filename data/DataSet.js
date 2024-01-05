@@ -1,6 +1,6 @@
 export const ExperienceData = [
     {
-        id: 0,
+        id: 1,
         title: 'Software Developer',
         company: 'Rybit Technology',
         time: 'Dec. 2023 - Present',
@@ -13,7 +13,7 @@ export const ExperienceData = [
         isCsRelated: true,
     },
     {
-        id: 1,
+        id: 2,
         title: 'Software Developer',
         company: 'Arena Management Consulting AG',
         time: 'May 2021 - Jul. 2023',
@@ -27,7 +27,7 @@ export const ExperienceData = [
         isCsRelated: true,
     },
     {
-        id: 2,
+        id: 3,
         title: 'Software Engineer',
         company: 'TiMOTION',
         companySite: 'https://www.timotion.com/en',
@@ -39,7 +39,7 @@ export const ExperienceData = [
         isCsRelated: true,
     },
     {
-        id: 3,
+        id: 4,
         title: 'Marketing Specialist/ Visual Merchandiser',
         company: 'HMD Global',
         companySite: 'https://www.hmdglobal.com/',
@@ -53,7 +53,7 @@ export const ExperienceData = [
         isCsRelated: false,
     },
     {
-        id: 4,
+        id: 5,
         title: 'Creative Planner',
         company: 'Rules Creative Ltd.',
         companySite: 'https://rulescreative.com/',
@@ -65,7 +65,7 @@ export const ExperienceData = [
         isCsRelated: false,
     },
     {
-        id: 5,
+        id: 6,
         title: 'Marketing Graphic Designer, Contract',
         company: 'NICECAM TECHNOLOGY CO., LTD.',
         companySite: 'https://www.linkedin.com/company/nicecam/about/',
@@ -77,7 +77,7 @@ export const ExperienceData = [
         isCsRelated: false,
     },
     {
-        id: 6,
+        id: 7,
         title: 'Project Assistant, Internship',
         company: 'BoniO Inc.',
         companySite: 'https://www.bonio.co/',
