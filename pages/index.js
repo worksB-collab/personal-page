@@ -21,10 +21,10 @@ const Homepage = () => {
             <h4 className={styles.profileName}>Ping-Chun, Wu (Billy)</h4>
             <h5 className={styles.profileTitle}>Software Developer</h5>
             <div className={styles.linkButtons}>
-              <Link href={'https://drive.google.com/file/d/1-QQY5R56a5X1EH6VkKTRWse-tJVIScwr/view?usp=drive_link'}
-                      target='_blank'>
-                    <FontAwesomeIcon icon={faFilePdf}/> CV
-                </Link>
+              <Link href={'https://drive.google.com/file/d/12XsSXkakyv495dieFdeTPSsJVZI9kHF0/view?usp=sharing'}
+                    target='_blank'>
+                  <FontAwesomeIcon icon={faFilePdf}/> CV
+              </Link>
                 <Link href={'/about'}>About</Link>
             </div>
             <div className={styles.events}>
