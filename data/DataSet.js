@@ -10,6 +10,7 @@ export const ExperienceData = [
             '- Utilizing SpringBoot, Elasticsearch, Redis, and MySQL for efficient data manipulation. Along with React Native to design and implement core features for a bike-sharing microservice system.' +
             '- Incorporating AWS services such as EKS, SQS, and ELB to ensure system reliability.'
         ,
+        skills: ['SpringBoot', 'ReactNative', 'Typescript', 'Docker', 'K8s', 'MySQL', 'PostgreSQL', 'GitLab', 'AWS', 'Grafana', 'Mockito'],
         isCsRelated: true,
     },
     {
@@ -24,6 +25,7 @@ export const ExperienceData = [
             '- Maintained 23 extensible and scalable modules, and boosted system performance by 12% improvement by optimizing API calls.' +
             '- Conducted daily peer reviews and comprehensive software testing, employed JMockit and JUnit for unit testing and integration testing.'
         ,
+        skills: ['Hibernate', 'Spring', 'Maven', 'Tomcat', 'JMockit', 'Java17', 'ReactJS', 'ExtJS', 'Oracle RDBMS', 'Jira', 'GitLab'],
         isCsRelated: true,
     },
     {
@@ -34,8 +36,9 @@ export const ExperienceData = [
         time: 'Apr. 2020 - May 2021',
         location: 'Taipei City, Taiwan',
         content: '- Designed and developed 4 mobile apps using Swift for iOS and Java for Android, applying design patterns, including Builder pattern, Singleton pattern, and Adapter pattern.' +
-            '- Introduced MVVM structure for a legacy project, resulting in a reduction of code length by 26%, and improved system performance.' +
+          '- Introduced MVVM structure for a legacy project, resulting in a reduction of code length by 36%, and improved system performance.' +
             '- Collaborated closely with the Firmware and Test Team to conduct integration tests, ensuring seamless functionality and optimal performance.',
+        skills: ['Swift(iOS)', 'Java(Android)'],
         isCsRelated: true,
     },
     {

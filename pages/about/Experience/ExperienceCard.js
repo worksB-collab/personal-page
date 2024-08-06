@@ -21,6 +21,19 @@ const ExperienceCard = (props) => {
                         {` ${props.location}`}
                     </p>
                 </div>
+              {
+                props.skills &&
+                <p className={styles.skills}>
+                  {
+                    props.skills.map((item, index) => {
+                      if (index === 0) {
+                        return `${item}`
+                      }
+                      return `/${item}`
+                    })
+                  }
+                </p>
+              }
                 {
                     props.content && props.content.split('- ')
                         .filter(item => item.length > 0)

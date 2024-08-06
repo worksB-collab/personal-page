@@ -23,6 +23,13 @@
     margin: 0;
 }
 
+.skills {
+    text-align: left;
+    font-weight: 500;
+    color: #777777;
+    margin: 0;
+}
+
 .school {
     color: #555555;
     font-weight: 700;
@@ -40,8 +47,12 @@
 }
 
 .company {
-    color: #777777;
-    margin: 0;
+    color: #2f5793;
+    margin-left: 5px;
+}
+
+.company:hover {
+    text-decoration: underline;
 }
 
 .price {
@@ -67,7 +78,7 @@
 
 .flexColumn {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .spaceBetweenContainer {

@@ -12,6 +12,7 @@ const ExperienceSection = (props) => {
             companySite={item.companySite}
             location={item.location}
             content={item.content}
+            skills={item.skills}
         />
     };
 
